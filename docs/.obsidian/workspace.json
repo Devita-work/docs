@@ -11,10 +11,14 @@
             "id": "384ce6540f527976",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "docs/.obsidian/workspace.json",
+                "bFile": "docs/.obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -138,13 +142,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "readme.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of readme"
+              "title": "Outline"
             }
           },
           {
@@ -175,7 +178,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd80919ede54de6d",
+  "active": "384ce6540f527976",
   "lastOpenFiles": [
     "README.md",
     "readme.md",
