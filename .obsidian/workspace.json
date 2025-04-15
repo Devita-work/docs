@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "docs/.obsidian/workspace.json",
-                "bFile": "docs/.obsidian/workspace.json",
+                "aFile": ".obsidian/plugins/obsidian-git/data.json",
+                "bFile": ".obsidian/plugins/obsidian-git/data.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: workspace.json"
+              "title": "Diff: data.json"
             }
           }
         ]
@@ -178,7 +178,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "156e7b450923cee7",
+  "active": "384ce6540f527976",
   "lastOpenFiles": [
     "README.md",
     "readme.md",
