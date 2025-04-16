@@ -15,7 +15,7 @@
               "state": {
                 "file": "README.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "README"
@@ -178,10 +178,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd80919ede54de6d",
+  "active": "832c75e36be4b326",
   "lastOpenFiles": [
-    "hotkeys.md",
+    "Pasted image 20250416093558.png",
     "README.md",
+    "hotkeys.md",
     "_sidebar.md",
     "interface.md",
     "Новый текстовый документ.txt",
@@ -194,7 +195,6 @@
     "Pasted image 20250416093857.png",
     "Pasted image 20250416093829.png",
     "Pasted image 20250416093750.png",
-    "Pasted image 20250416093558.png",
     "Pasted image 20250416092349.png",
     "Pasted image 20250416092314.png",
     "Hotkeys.md",
