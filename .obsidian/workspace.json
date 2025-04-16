@@ -11,10 +11,14 @@
             "id": "832c75e36be4b326",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -174,13 +178,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "156e7b450923cee7",
+  "active": "832c75e36be4b326",
   "lastOpenFiles": [
-    "Описание интерфейса.md",
-    "interface.md",
-    "hotkeys.md",
+    "_sidebar.md",
     "README.md",
+    "interface.md",
     "Новый текстовый документ.txt",
+    "Описание интерфейса.md",
+    "hotkeys.md",
     "Горячие клавиши.md",
     "Pasted image 20250416094230.png",
     "Pasted image 20250416094108.png",
