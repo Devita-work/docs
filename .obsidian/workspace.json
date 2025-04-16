@@ -11,14 +11,14 @@
             "id": "51d91fcd20a84a2c",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".vs/docs/v17/.wsuo",
-                "bFile": ".vs/docs/v17/.wsuo",
-                "aRef": ""
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: .wsuo"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -180,22 +180,23 @@
   },
   "active": "51d91fcd20a84a2c",
   "lastOpenFiles": [
+    "images/Pasted image 20250416094230.png",
     "README.md",
-    "Pasted image 20250416093558.png",
-    "hotkeys.md",
+    "images",
     "_sidebar.md",
+    "hotkeys.md",
+    "images/Pasted image 20250416093558.png",
     "interface.md",
     "Новый текстовый документ.txt",
     "Описание интерфейса.md",
     "Горячие клавиши.md",
-    "Pasted image 20250416094230.png",
-    "Pasted image 20250416094108.png",
-    "Pasted image 20250416094030.png",
-    "Pasted image 20250416094005.png",
-    "Pasted image 20250416093857.png",
-    "Pasted image 20250416093829.png",
-    "Pasted image 20250416093750.png",
-    "Pasted image 20250416092349.png",
+    "images/Pasted image 20250416094108.png",
+    "images/Pasted image 20250416094030.png",
+    "images/Pasted image 20250416094005.png",
+    "images/Pasted image 20250416093857.png",
+    "images/Pasted image 20250416093829.png",
+    "images/Pasted image 20250416093750.png",
+    "images/Pasted image 20250416092349.png",
     "Pasted image 20250416092314.png",
     "Hotkeys.md",
     "WorkingWindow.md",
