@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f9a992b66d215abb",
+        "id": "a4749d22e94ebbe1",
         "type": "tabs",
         "children": [
           {
-            "id": "832c75e36be4b326",
+            "id": "51d91fcd20a84a2c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": true
+                "aFile": ".vs/docs/v17/.wsuo",
+                "bFile": ".vs/docs/v17/.wsuo",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "diff",
+              "title": "Diff: .wsuo"
             }
           }
         ]
@@ -178,10 +178,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "832c75e36be4b326",
+  "active": "51d91fcd20a84a2c",
   "lastOpenFiles": [
-    "Pasted image 20250416093558.png",
     "README.md",
+    "Pasted image 20250416093558.png",
     "hotkeys.md",
     "_sidebar.md",
     "interface.md",
