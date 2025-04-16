@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hotkeys.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hotkeys"
+              "title": "README"
             }
           }
         ]
@@ -178,12 +178,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "832c75e36be4b326",
+  "active": "fd80919ede54de6d",
   "lastOpenFiles": [
-    "interface.md",
-    "README.md",
     "hotkeys.md",
+    "README.md",
     "_sidebar.md",
+    "interface.md",
     "Новый текстовый документ.txt",
     "Описание интерфейса.md",
     "Горячие клавиши.md",
