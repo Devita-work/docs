@@ -165,7 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 350.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,7 +178,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd80919ede54de6d",
+  "active": "156e7b450923cee7",
   "lastOpenFiles": [
     "_sidebar.md",
     "hotkeys.md",
