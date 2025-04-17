@@ -4,10 +4,7 @@
     relativePath: true,
     maxLevel: 4,
     subMaxLevel: 3,
-  
-    versions: docsifyVersions,
-    versionSelectorLabel: "Version",
-  
+
     search: {
       noData: "Нет результатов!",
       paths: "auto",
