@@ -7,8 +7,34 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+    <style>
+      .top-right-button {
+        position: fixed;
+        top: 10px;
+        right: 20px;
+        background-color: #007BFF;
+        color: white;
+        padding: 8px 14px;
+        border: none;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: bold;
+        z-index: 9999;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      }
+
+      .top-right-button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+
 </head>
 <body>
+    <a class="top-right-button" href="https://example.com" target="_blank">
+      Перейти на сайт
+    </a>
+
   <div id="app"></div>
   <!-- Docsify v4 -->
   <script src="js/main.js"></script>
