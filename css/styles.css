@@ -1,11 +1,3 @@
-.sidebar-toggle {
-	background-color: unset;
-	position: fixed !important;
-	top: 0 !important;
-	bottom: auto !important;
-	padding: 10px 10px 10px 10px !important;
-}
-
 .top-right-button {
   position: fixed;
   top: 10px;
