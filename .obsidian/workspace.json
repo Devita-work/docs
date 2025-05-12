@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a4749d22e94ebbe1",
+        "id": "f9a992b66d215abb",
         "type": "tabs",
         "children": [
           {
-            "id": "51d91fcd20a84a2c",
+            "id": "832c75e36be4b326",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "index.html",
-                "bFile": "index.html",
-                "aRef": ""
+                "file": "workspaces.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: index.html"
+              "icon": "lucide-file",
+              "title": "workspaces"
             }
           }
         ]
@@ -165,7 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,35 +178,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "51d91fcd20a84a2c",
+  "active": "832c75e36be4b326",
   "lastOpenFiles": [
     "interface.md",
-    "css/styles.css",
-    "css/style.css",
-    "css/Новый текстовый документ.txt",
-    "css",
-    "Новая папка",
+    "workspaces.md",
     "images/lotAmount.png",
+    "images/interface/topmenutraidingdropdown.png",
+    "images/interface/topmenusearch.png",
+    "images/interface/ticks.png",
+    "images/interface/Pasted image 20250416092100.png",
+    "images/interface/lotAmount.png",
+    "images/interface/instrumentsnames.png",
+    "images/interface/instrumentssettingsbutton.png",
+    "images/interface/instrumentsheaders.png",
+    "images/interface/glassscale.png",
+    "images/interface",
+    "images/images",
+    "images/Новая папка",
+    "css/styles.css",
+    "css",
     "README.md",
-    "_sidebar.md",
-    "hotkeys.md",
     "js/main.js",
-    "js/Новый текстовый документ.txt",
     "js",
-    "images/Pasted image 20250416092100.png",
-    "images/clusters.png",
-    "images/glass.png",
-    "images/ticks.png",
-    "images/glassscale.png",
-    "images/instrumentssettingsbutton.png",
-    "images/instrumentsnames.png",
-    "images/instrumentsheaders.png",
-    "images/topmenutraidingdropdown.png",
-    "CNAME",
-    "images/Pasted 2.md",
-    "images/Pasted.md",
-    "images/Pasted 1.md",
     "images",
+    "CNAME",
+    "hotkeys.md",
+    "_sidebar.md",
+    "Новый текстовый документ.txt",
     "Описание интерфейса.md",
     "Горячие клавиши.md",
     "Hotkeys.md",

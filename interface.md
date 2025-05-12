@@ -6,7 +6,7 @@
 
 ### 1.1 Поиск по инструментам
 
-![1](images/topmenusearch.png)
+![1](images/interface/topmenusearch.png)
 ### 1.2 Меню «Торговля» – содержит в себе пункты:
 - **Активные ордера**: вызов окна активных заказов.
 - **Активные позиции**: вызов окна активных позиций.
@@ -21,42 +21,42 @@
 #### 1.1.3 Пункт «Финрез»
 - Открывает окно финансового результата.
 
-![2](images/topmenutraidingdropdown.png)
+![2](images/interface/topmenutraidingdropdown.png)
 ## 2. Отображение текущих стаканов:
 - Здесь отображаются текущие стаканы.
 - Можно добавить, переместить или удалить стакан.
 
-![3](images/instrumentsheaders.png)
+![3](images/interface/instrumentsheaders.png)
 ## 3. Название выбранного торгового инструмента:
 - Показывает название текущего выбранного инструмента.
 
-![4](images/instrumentsnames.png)
+![4](images/interface/instrumentsnames.png)
 ## 4. Значок «Настройки»:
 - Для вызова окна настроек инструмента.
 
-![5](images/instrumentssettingsbutton.png)
+![5](images/interface/instrumentssettingsbutton.png)
 ## 5. Индикатор масштаба стакана:
 - Указывает на увеличение масштаба цены.
 
-![6](images/glassscale.png)
+![6](images/interface/glassscale.png)
 
 ## 6. Прошедшие сделки (тики):
 - Отображает информацию о прошедших сделках.
 
-![7](images/ticks.png)
+![7](images/interface/ticks.png)
 
 ## 7. Стакан:
 - Список заявок на покупку и продажу.
 
-![8](images/glass.png)
+![8](images/interface/glass.png)
 
 ## 8. Таблица кластеров
 - Показывает объем прошедших сделок.
 
-![9](images/clusters.png)
+![9](images/interface/clusters.png)
 
 ## 9. Рабочий объем
 - Для быстрого выбора рабочего объема
 - Рабочий объем можно настраивать двойным кликом на значение рабочего объема, либо через [меню настроек инструмента](#_4-Значок-«Настройки»).
 
-![10](images/lotAmount.png)
+![10](images/interface/lotAmount.png)
