@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "workspaces.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "workspaces"
+              "title": "README"
             }
           }
         ]
@@ -180,10 +180,12 @@
   },
   "active": "832c75e36be4b326",
   "lastOpenFiles": [
-    "images/interface/add_workspace.png",
+    "interface.md",
     "_sidebar.md",
-    "hotkeys.md",
+    "README.md",
     "workspaces.md",
+    "images/interface/add_workspace.png",
+    "hotkeys.md",
     "images/interface/instrumentsheaders.png",
     "images/interface/glassscale.png",
     "images/interface/glass.png",
@@ -193,14 +195,11 @@
     "images/interface/ticks.png",
     "images/interface/lotAmount.png",
     "images/interface/instrumentssettingsbutton.png",
-    "images/interface/instrumentsnames.png",
-    "interface.md",
     "images/interface",
     "images/images",
     "images/Новая папка",
     "css/styles.css",
     "css",
-    "README.md",
     "js/main.js",
     "js",
     "images",
