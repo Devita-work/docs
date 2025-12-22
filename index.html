@@ -41,18 +41,20 @@
   window.$docsify = { loadSidebar: true };
 
   window.addEventListener('DOMContentLoaded', () => {
+    // Если нет hash в URL, открыть первую ссылку из sidebar
     if (!location.hash || location.hash === '#/') {
       fetch('_sidebar.md')
         .then(res => res.text())
         .then(md => {
           const match = md.match(/\[.*?\]\(#\/(.*?)\)/);
           if (match) {
-            location.hash = '#/' + match[1];
+            location.hash = '#/' + match[1]; // hash-навигация
           }
         });
     }
   });
 </script>
+
 
   <!-- Docsify v4 -->
   <script src="js/main.js"></script>
