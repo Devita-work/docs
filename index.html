@@ -37,6 +37,25 @@
 
   <div id="app"></div>
 
+  <script>
+window.addEventListener('DOMContentLoaded', () => {
+  if (!location.hash || location.hash === '#/') {
+    fetch('_sidebar.md')
+      .then(res => res.text())
+      .then(md => {
+        const links = [...md.matchAll(/\((weeks\/[^)]+)\)/g)];
+        if (links.length) {
+          // берем первую (или последнюю) ссылку из sidebar
+          const latest = links[0][1];
+          // подставляем в location.hash так, чтобы Docsify отработал
+          location.replace('#/' + latest);
+        }
+      });
+  }
+});
+</script>
+
+
   <!-- Docsify v4 -->
   <!-- <script src="js/main.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
