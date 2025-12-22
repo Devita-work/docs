@@ -1,7 +1,7 @@
 .top-right-button {
   position: fixed;
   top: 10px;
-  right: 20px;
+  right: -20px;
   background-color: #007BFF;
   color: white;
   padding: 8px 14px;
