@@ -36,6 +36,22 @@
   </div>
 
   <div id="app"></div>
+
+  <script>
+  // Редирект на первую ссылку из _sidebar.md
+  fetch('_sidebar.md')
+    .then(res => res.text())
+    .then(md => {
+      // Находим первую ссылку в формате [текст](ссылка)
+      const match = md.match(/\[.*?\]\((.*?)\)/);
+      if (match && (location.pathname.endsWith('/') || location.pathname.endsWith('index.html'))) {
+        const firstLink = match[1];
+        location.replace(firstLink);
+      }
+    });
+</script>
+
+
   <!-- Docsify v4 -->
   <script src="js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
