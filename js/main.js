@@ -1,9 +1,10 @@
   window.$docsify = {
     name: "Что нового?",
     loadSidebar: true,
-      alias: {
+    basePath: '/docs/',
+    alias: {
     '/.*/_sidebar.md': '/_sidebar.md'
-  },
+    },
     subMaxLevel: 0,
 
     plugins: [
