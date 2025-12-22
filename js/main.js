@@ -7,6 +7,10 @@
     },
     subMaxLevel: 0,
 
+    requestHeaders: {
+      'cache-control': 'max-age=600',
+    },
+
     search: {
       noData: "Нет результатов!",
       paths: "auto",
