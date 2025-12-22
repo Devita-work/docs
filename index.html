@@ -37,15 +37,14 @@
 
   <div id="app"></div>
 
-  <script>
-  // Редирект на первую ссылку из _sidebar.md
+<script>
   fetch('_sidebar.md')
     .then(res => res.text())
     .then(md => {
-      // Находим первую ссылку в формате [текст](ссылка)
       const match = md.match(/\[.*?\]\((.*?)\)/);
       if (match && (location.pathname.endsWith('/') || location.pathname.endsWith('index.html'))) {
-        const firstLink = match[1];
+        let firstLink = match[1];
+        if (!firstLink.endsWith('.md')) firstLink += 'README.md';
         location.replace(firstLink);
       }
     });
