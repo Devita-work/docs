@@ -2,8 +2,7 @@
     name: "Что нового?",
     loadSidebar: true,
     relativePath: true,
-    maxLevel: 4,
-    subMaxLevel: 3,
+    subMaxLevel: 0,
 
     search: {
       noData: "Нет результатов!",
