@@ -38,14 +38,11 @@
   <div id="app"></div>
 
 <script>
-  fetch('_sidebar.md')
-    .then(res => res.text())
-    .then(md => {
-      const match = md.match(/\[.*?\]\((.*?)\)/);
-      if (match && (location.pathname.endsWith('/') || location.pathname.endsWith('index.html'))) {
-        location.replace(match[1]);
-      }
-    });
+  window.addEventListener('DOMContentLoaded', () => {
+    if (!location.hash || location.hash === '#/') {
+      location.hash = '#/Changes/22.12.25-29.12.25/';
+    }
+  });
 </script>
 
   <!-- Docsify v4 -->
