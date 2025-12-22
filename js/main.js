@@ -1,5 +1,5 @@
   window.$docsify = {
-    name: "Cassandra.lite-invest",
+    name: "Что нового?",
     loadSidebar: true,
     relativePath: true,
     maxLevel: 4,
