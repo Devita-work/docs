@@ -45,11 +45,11 @@
       if (match && (location.pathname.endsWith('/') || location.pathname.endsWith('index.html'))) {
         let firstLink = match[1];
         if (!firstLink.endsWith('.md')) firstLink += 'README.md';
-        location.replace(firstLink);
+        // Добавляем поддиректорию репозитория
+        location.replace('/docs/' + firstLink);
       }
     });
 </script>
-
 
   <!-- Docsify v4 -->
   <script src="js/main.js"></script>
