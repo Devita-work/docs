@@ -39,6 +39,8 @@
 
   <script>
 window.addEventListener('DOMContentLoaded', () => {
+  localStorage.removeItem('docsify_search_index');
+
   if (!location.hash || location.hash === '#/') {
     fetch('_sidebar.md')
       .then(res => res.text())
