@@ -38,9 +38,18 @@
   <div id="app"></div>
 
 <script>
+  window.$docsify = { loadSidebar: true };
+
   window.addEventListener('DOMContentLoaded', () => {
     if (!location.hash || location.hash === '#/') {
-      location.hash = '#/Changes/22.12.25-29.12.25/';
+      fetch('_sidebar.md')
+        .then(res => res.text())
+        .then(md => {
+          const match = md.match(/\[.*?\]\(#\/(.*?)\)/);
+          if (match) {
+            location.hash = '#/' + match[1];
+          }
+        });
     }
   });
 </script>
