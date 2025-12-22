@@ -1,5 +1,5 @@
   window.$docsify = {
-    name: "Что нового?",
+    name: "Баланс2-архив. Что нового?",
     loadSidebar: true,
     basePath: '/docs/',
     alias: {
