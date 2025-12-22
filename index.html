@@ -43,10 +43,7 @@
     .then(md => {
       const match = md.match(/\[.*?\]\((.*?)\)/);
       if (match && (location.pathname.endsWith('/') || location.pathname.endsWith('index.html'))) {
-        let firstLink = match[1];
-        if (!firstLink.endsWith('.md')) firstLink += 'README.md';
-        // Добавляем поддиректорию репозитория
-        location.replace('/docs/' + firstLink);
+        location.replace(match[1]);
       }
     });
 </script>
