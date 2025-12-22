@@ -38,26 +38,28 @@
   <div id="app"></div>
 
 <script>
+  window.$docsify = {
+    loadSidebar: true,
+    subMaxLevel: 0
+  };
+
   window.addEventListener('DOMContentLoaded', () => {
+    // если hash пустой — перенаправляем на первую ссылку из sidebar
     if (!location.hash || location.hash === '#/') {
       fetch('_sidebar.md')
         .then(res => res.text())
         .then(md => {
-          const match = md.match(/\[.*?\]\(#\/(.*?)\)/);
-          if (match) {
-            location.hash = '#/' + match[1]; // hash-навигация Docsify
+          const links = [...md.matchAll(/\[.*?\]\(#\/(.*?)\)/g)];
+          if (links.length) {
+            // выбираем последнюю (или первую, если хотите)
+            const lastLink = links[0][1]; 
+            location.hash = '#/' + lastLink;
           }
         });
     }
   });
 </script>
 
-<script>
-  window.$docsify = {
-    loadSidebar: true, // загружает только _sidebar.md из корня
-    subMaxLevel: 0     // предотвращает поиск _sidebar.md в подпапках
-  };
-</script>
 
   <!-- Docsify v4 -->
   <script src="js/main.js"></script>
